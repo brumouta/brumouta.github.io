@@ -19,9 +19,8 @@ jobs:
       uses: docker/build-push-action@v4
       with:
         context: .
+        file: ./Dockerfile
         push: true
         tags: |
-          vorrac/portfolio:latest
-          vorrac/portfolio:$(date +%s)
-          ghcr.io/brumouta/portfolio:latest
-          ghcr.io/brumouta/portfolio:$(date +%s)
+          ${{ secrets.DOCKER_LOGIN }}/portfolio:latest
+          ${{ secrets.DOCKER_LOGIN }}/portfolio:0.2
