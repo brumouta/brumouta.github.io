@@ -1,11 +1,11 @@
 {
-  "name": "v4",
-  "description": "Personal Website V4",
-  "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "name": "Portfolio",
+  "description": "Personal Portfolio",
+  "version": "0.2.0",
+  "author": "Bruno Mouta <bruno@mouta.dev>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bchiang7/v4"
+    "url": "https://github.com/brumouta/portfolio"
   },
   "keywords": [
     "gatsby"
