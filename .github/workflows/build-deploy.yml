@@ -34,7 +34,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: brumouta.github.io
+      url: https://brumouta.github.io
     runs-on: ubuntu-latest
     needs: build
     steps:
