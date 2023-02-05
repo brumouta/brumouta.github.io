@@ -66,7 +66,7 @@ const Hero = () => {
     <>
       <p>
         I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
+        digital experiences. Currently, I’m focused on crafting great software with quality and love
         at{' '}
         <a href="https://www.codurance.com/" target="_blank" rel="noreferrer">
           Codurance
